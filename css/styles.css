@@ -134,7 +134,8 @@ ul, ol {
         height: 100%;
         background-color: rgba(0, 0, 0, 0.5);
         opacity: 250ms;
-        transition: cubic-bezier(0.4, 0.8, 0.2, 1);
+        transition: color cubic-bezier(0.4, 0.0, 0.2, 1);
+        transition: color cubic-bezier(0.4, 0.0, 0.2, 1);
         opacity: 250ms;
         
 }
