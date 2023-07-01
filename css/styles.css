@@ -45,13 +45,13 @@
 *::before,
 *::after {
         box-sizing: border-box;
-        content ;
+        /* content ;
         position: absolute; 
         left: 0;
         bottom: -1px;
         height: 4px;
         background-color: #404bbf;
-        border-radius: 2px;
+        border-radius: 2px; */
 
 
 }
@@ -121,13 +121,13 @@ ul, ol {
 */
 
 .backdrop.is-hidden {
-        visibility: hidden;
+        /* visibility: hidden;
         opacity: 0;
-        pointer-events: none;
+        pointer-events: none; */
 }
 
 .backdrop {
-        position: fixed;
+        /* position: fixed;
         top: 0;
         left: 0;
         width: 100%;
@@ -136,7 +136,7 @@ ul, ol {
         opacity: 250ms;
         transition: cubic-bezier(0.4, 0.0, 0.2, 1);
         transition: color cubic-bezier(0.4, 0.0, 0.2, 1);
-        opacity: 250ms;
+        opacity: 250ms; */
         
 }
 
@@ -194,8 +194,9 @@ button {
  */
  .header {
         border-bottom: 1px solid var(--border-cl);
+        
         /* from autocheck */
-        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+        /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
  }
 
  .header-nav {
@@ -216,7 +217,7 @@ button {
         margin-right: 76px;
         padding: 24px 0;
         /* from ACheck */
-        position: relative;
+        /* position: relative; */
  }
 
  .web {
@@ -305,7 +306,8 @@ button {
  }
 
  .hero-container {
-        
+        background-image: url(../images/hero-section/Dark-bg.jpg);
+        /* background-repeat: repeat; */
  }
 
  .hero-title {
