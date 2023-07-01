@@ -46,6 +46,9 @@
 *::after {
         box-sizing: border-box;
         content: '';
+        content: ;
+        position: absolute; 
+        
 }
 
 .visually-hidden {
