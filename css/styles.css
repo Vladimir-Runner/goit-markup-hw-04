@@ -87,6 +87,10 @@ body {
     background-color: var(--main-light-bg);
 }
 
+main {
+        flex-grow: 1;
+}
+
 /* Reset */
 /* 
 
@@ -240,6 +244,23 @@ button {
                 display: flex;
                 gap: 40px;
                 align-items: center;
+                        position: relative;
+                        transition-property: color;
+                        transition-duration: 250ms;
+                        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                        padding: 24px 0;
+ }
+
+ .first-page::after {
+        position: absolute;
+                left: 0;
+                bottom: -1px;        
+                content: "";
+                width: 48px;
+                height: 4px;
+                background-color: var(--ocean-cl);
+                margin-top: 20px;
+                border-radius: 2px;
  }
 
  /*  */ 
