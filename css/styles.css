@@ -223,7 +223,7 @@ button {
         margin-right: 76px;
         padding: 24px 0;
         /* from ACheck */
-        /* position: relative; */
+         position: relative; 
  }
 
  .web {
@@ -240,7 +240,8 @@ button {
                 font-size: 16px;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
-                color: var(--main-dark-bg);   
+                color: var(--main-dark-bg);
+                color: #404bbf;
                 display: flex;
                 gap: 40px;
                 align-items: center;
