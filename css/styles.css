@@ -642,6 +642,7 @@ button {
         letter-spacing: 0.02em;
         color: var(--link-cl);
         background-color: var(--main-light-bg);
+        margin-bottom: 8px;
 }
 
 .our-team {
