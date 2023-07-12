@@ -958,6 +958,17 @@ button {
 |--------------------------- 
 */
 
+.portfolio-page::after {
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        content: "";
+        width: 66px;
+        height: 4px;
+        background-color: var(--ocean-cl);
+        margin-top: 20px;
+        border-radius: 2px;
+}
 
 .portfolio-main {
         padding-top: 96px;
