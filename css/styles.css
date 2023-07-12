@@ -287,10 +287,6 @@ button {
                 transition-property: color;
                 transition-duration: 250ms;
                 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-                transition-property: color;
-                transition-duration: 250ms;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                 padding: 24px 0;
          
  }
@@ -320,7 +316,9 @@ button {
     letter-spacing: 0.02em;
     font-style: normal;
     color: var(--link-cl);
-         
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);     
  }
 
 
@@ -774,11 +772,11 @@ button {
         margin-right: 120px;
  }
 
- .logo-footer {
+ /* .logo-footer {
         display: inline-block;
         margin-bottom: 16px;  
         padding: 0;      
- }
+ } */
 
 .footer-title-links {
         font-weight: 500;
@@ -796,7 +794,7 @@ button {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--logo-color);
+        color: var(--string-web-cl);
         display: inline-block;
         margin-bottom: 16px;
 }
