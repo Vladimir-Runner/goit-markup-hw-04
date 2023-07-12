@@ -147,7 +147,7 @@ ul, ol {
         gap: var(--indent);
 }
 
-​ .card-set-item {
+.card-set-item {
         flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
@@ -782,7 +782,7 @@ button {
         text-transform: uppercase;
         color: var(--string-web-cl);
         display: inline-block;
-        margin-bottom: 16px;
+        /* margin-bottom: 16px; */
 }
 
 .logo-studio-footer {
