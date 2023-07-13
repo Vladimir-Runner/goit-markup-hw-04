@@ -191,6 +191,7 @@ button {
 }
 
 .link {
+        color: #404BBF;
     color: var(--link-cl);
     text-decoration: none;
         display: block;
@@ -223,7 +224,7 @@ button {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #404bbf;
+        /* color: #404bbf; */
         color:#4D5AE5;
         margin-right: 76px;
         padding: 24px 0;
@@ -276,7 +277,7 @@ button {
  .header-link {
        color: var(--main-dark-bg);  
        padding: 24px 0;  
-                color: #404bbf;
+                /* color: #404bbf; */
                 position: relative;
                 transition-property: color;
                 transition-duration: 250ms;
