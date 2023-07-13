@@ -203,7 +203,7 @@ button {
  */
  .header {
         border-bottom: 1px solid var(--border-cl);
-        color: #404bbf;
+        /* color: #404bbf; */
         align-items: center;
         /* from autocheck */
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -223,6 +223,7 @@ button {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        color: #404bbf;
         color:#4D5AE5;
         margin-right: 76px;
         padding: 24px 0;
@@ -1111,9 +1112,10 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding: 40px 32px 0;
+        padding: 40px 32px;
         position: absolute;
         top: 0;
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
