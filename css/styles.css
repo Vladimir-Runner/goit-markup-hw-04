@@ -1,6 +1,5 @@
 :root {
-
-    /*   */
+    
         --items: 3; 
          /* змінна для зберігання кількості елементів в одному рядку сітки */
         --indent: 30px; 
@@ -10,8 +9,7 @@
 --primary-font: Roboto, sans-serif;
 
 /* Colors */
-/* --main-dark-cl: 
---main-light-cl: */
+
 --ocean-cl: #404BBF;
 --main-light-bg: #ffffff;
 --light-bg: #e5e5e5;
@@ -88,9 +86,7 @@ main {
 }
 
 /* Reset */
-/* 
-
- */
+ 
  h1,h2,h3,h4,h5,h6,p {
         margin: 0;
  }
@@ -190,11 +186,10 @@ button {
         background-size: cover;
 }
 
-.link {
-        /* color: #404BBF; */
+.link {       
     color: var(--link-cl);
     text-decoration: none;
-        display: block;
+    display: block;
 }
 
 /* 
@@ -223,8 +218,7 @@ button {
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        text-transform: uppercase;
-        /* color: #404bbf; */
+        text-transform: uppercase;        
         color:#4D5AE5;
         margin-right: 76px;
         padding: 24px 0;
@@ -245,8 +239,7 @@ button {
                 font-size: 16px;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
-                color: var(--main-dark-bg);
-                /* color: #404bbf; */
+                color: var(--main-dark-bg);                
                 display: flex;
                 gap: 40px;
                 align-items: center;
@@ -279,8 +272,7 @@ button {
 
  .header-link {
        color: var(--main-dark-bg);  
-       padding: 24px 0;  
-                /* color: #404bbf; */
+       padding: 24px 0;                  
                 position: relative;
                 transition-property: color;
                 transition-duration: 250ms;
