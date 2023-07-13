@@ -954,7 +954,7 @@ button {
 */
 
 .portfolio-page {
-       background-color: var(--ocean-cl); 
+       color: var(--ocean-cl); 
 }
 
 .portfolio-page::after {
