@@ -225,8 +225,7 @@ button {
         color:#4D5AE5;
         margin-right: 76px;
         padding: 24px 0;
-        /* from ACheck */
-         position: relative; 
+        position: relative; 
  }
 
  .web {
@@ -837,7 +836,7 @@ button {
 }
 
 
-/**
+/*
   |============================
   | modal window 
   |============================
@@ -997,6 +996,8 @@ button {
         transition-property: background-color, color, border, box-shadow;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-filter:hover, 
