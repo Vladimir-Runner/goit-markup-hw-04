@@ -275,7 +275,7 @@ button {
  .header-link {
        color: var(--main-dark-bg);  
        padding: 24px 0;  
-                color: #404bbf;
+                /* color: #404bbf; */
                 position: relative;
                 transition-property: color;
                 transition-duration: 250ms;
@@ -952,6 +952,10 @@ button {
 |Button section styles
 |--------------------------- 
 */
+
+.portfolio-page {
+       background-color: var(--ocean-cl); 
+}
 
 .portfolio-page::after {
         position: absolute;
