@@ -466,12 +466,12 @@ button {
 }
 /* SVG================================= SVG */
 
-
+/* 
 .describe-list:hover, 
 .describe-list:focus {
-        /* Саме оця рамка з`являється */
+        
         border: 1px solid var(--string-web-cl);
-}
+} */
 
 /* .strategy-name {
         display: flex;
