@@ -175,6 +175,7 @@ button {
 
 .hero {
     background-color: var(--main-dark-bg);
+    margin: 0 auto;
     /* background: url(../images/hero-section/people-office.jpg), lightgray 0px -167.8px / 100% 139.9% no-repeat;
     background-repeat: no-repeat; */
 
@@ -202,7 +203,7 @@ button {
  */
  .header {
         border-bottom: 1px solid var(--border-cl);
-        padding: 24px 0;
+        
         align-items: center;
         /* from autocheck */
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
