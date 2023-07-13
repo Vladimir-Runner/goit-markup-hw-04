@@ -392,9 +392,9 @@ button {
         background-color: var(--ocean-cl); 
         background: #404BBF;
         border: none;
-        /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
-        text-align: center; */
+        text-align: center;
  }
 
 /* 
