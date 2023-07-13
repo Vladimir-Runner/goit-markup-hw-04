@@ -191,7 +191,7 @@ button {
 }
 
 .link {
-        color: #404BBF;
+        /* color: #404BBF; */
     color: var(--link-cl);
     text-decoration: none;
         display: block;
@@ -246,12 +246,15 @@ button {
                 line-height: 1.5;
                 letter-spacing: 0.02em;
                 color: var(--main-dark-bg);
-                color: #404bbf;
+                /* color: #404bbf; */
                 display: flex;
                 gap: 40px;
                 align-items: center;
                        
  }
+
+
+
 
  .first-page::after {
         position: absolute;
@@ -282,8 +285,11 @@ button {
                 transition-property: color;
                 transition-duration: 250ms;
                 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                padding: 24px 0;
-         
+                padding: 24px 0;         
+ }
+
+ .first-page {
+         color: var(--ocean-cl);
  }
 
  .address {
